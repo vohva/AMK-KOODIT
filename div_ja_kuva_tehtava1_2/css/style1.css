@@ -1,0 +1,46 @@
+.flex-container1
+{
+    display:flex;
+    margin:auto;    
+    justify-content: center;  
+    background: dimgray;
+    width: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-top: 25px;
+}
+
+.kuva1,.kuva2,.kuva3
+{
+    padding: 50px;    
+}
+
+img
+{
+    
+    height: 400px;   
+}
+
+.otsikko
+{
+    text-align: center;
+    font-family: sans-serif;
+    color: dimgray;
+}
+
+#hide, #show, #refresh
+{
+    background-color: dimgray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.painikkeet
+{
+    text-align: center;
+}
