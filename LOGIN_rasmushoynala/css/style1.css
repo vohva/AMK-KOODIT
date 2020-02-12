@@ -1,0 +1,77 @@
+.flex-container1
+{
+    display:flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container1>div
+{
+    background-color: darkblue;
+    color: white;
+    width: 400px;
+    text-align:center;
+    line-height: 60px;
+    font-size: 30px;
+    margin: auto;
+}
+
+.flex-container2>div
+{
+    background-color: darkblue;
+    color: white;
+    width: 350px;
+    text-align:center;
+    line-height: 40px;
+    font-size: 30px;
+    margin: auto;    
+}
+
+.login
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+    
+.border
+{
+    background-color: lightgray;    
+    padding: 20px;
+    width: 350px;
+    margin: auto;
+    font-family: sans-serif;
+}
+    
+.remember
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.keskitettylinkki
+{
+    text-align: center;
+    margin-top: 15px;   
+    
+}
+
+a:visited, a:link, a:active
+{
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: white;
+}

@@ -1,0 +1,25 @@
+.pudota
+{
+    width: 30%;
+    text-align:center;
+    background-color: #f2f2f2;    
+    border:solid 1px black;
+    font-family: sans-serif;
+    font-weight: 100;      
+    border-radius: 25px;
+    padding: 5px;
+}
+.panel
+{
+    height: 120px;
+    width: 30%;
+    display:none;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 100;      
+    border:solid 1px #c3c3c3;
+    border-radius: 25px;
+    text-align:center;
+    border:solid 1px black;
+    padding: 5px;
+}
