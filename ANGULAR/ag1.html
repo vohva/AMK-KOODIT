@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+
+
+<!--ng-app directive määrittää Angular sovelluksen käyttöönoton.-->
+<div ng-app="" ng-init="fname='John'">
+<p>Input something in the input boxes:</p>
+
+<!--The ng-model directive binds the value 
+of HTML controls(input, select, textarea) 
+to application data.-->
+
+<!--ng-model directive sitoo hmtl-elementtien arvoja käsittelyä varten -->
+
+<p>Firstname: <input type="text" ng-model="fname"></p>
+<p>Lastname: <input type="text" ng-model="lname"></p>
+
+<!--The ng-bind directive binds application data to the HTML view-->
+<!--ng-bind directive sitoo ohjelman datan html-elementteihin-->
+
+<p ng-bind="fname"></p>
+<p ng-bind="lname"></p>
+<!--toinen tapa tehdä sama asia-->
+<p>{{fname+" "+ lname}}
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
